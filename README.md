@@ -2,7 +2,7 @@
 
 Objective
 
-You have been tasked with developing a web-based library management system using
+I have been tasked with developing a web-based library management system using
 HTML, CSS, Javascript, PHP and MySQL designed to efficiently manage books and users,
 providing a seamless experience for both administrators and users. The system will
 include features for managing user accounts, book records, and book loans. There are two
