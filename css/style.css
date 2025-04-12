@@ -1,0 +1,1045 @@
+body{
+   font-family: sans-serif;
+   font-size: 17px;
+   align-items: center;
+   background-color: rgb(191, 197, 204);
+   padding: 0;
+   margin: 0;
+}
+.LoginHolder{
+    width: 35%;
+    border-radius: 8px;
+    margin: 0 auto;
+    margin-top: 150px;
+    text-align: center;
+}
+.LoginHolder h1{
+    font-size: 33px;
+}
+.LoginHolder p{
+    font-size: 20px;
+}
+.LoginHolder form{
+    border-radius: 10px;
+    background-color: white;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+.loginStatus{
+    color: rgb(0, 0, 0);
+    border-radius: 12px;
+    padding: 7px;
+    color: red;
+    width: 90%;
+    font-size: 32px;
+    margin: 0 auto;
+    font-size: 15px;
+}
+.InputHolder{
+    width: 90%;
+    background-color: rgb(212, 235, 241);
+    border-radius: 100px;
+    margin: 0 auto;
+    box-shadow: 2px 2px 2px black;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-width: 2px;
+    text-align: left;
+}
+.InputHolder input{
+    font-size: 20px;
+    padding: 18px 22px 18px 22px;
+    background-color: transparent;
+    outline: none;
+    border-style: none;
+    width: 75%;
+}
+
+.InputHolder select{
+    font-size: 20px;
+    padding: 18px 22px 18px 22px;
+    background-color: transparent;
+    outline: none;
+    border-style: none;
+    width: 85%;
+}
+
+
+
+.InputHolder5{
+    width: 90%;
+    background-color: rgb(212, 235, 241);
+    border-radius: 100px;
+    margin: 0 auto;
+    box-shadow: 2px 2px 2px black;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-width: 2px;
+    text-align: left;
+}
+.InputHolder5 input{
+    font-size: 20px;
+    padding: 18px 22px 18px 22px;
+    background-color: transparent;
+    outline: none;
+    border-style: none;
+    width: 75%;
+}
+
+.InputHolder5 select{
+    font-size: 20px;
+    padding: 18px 22px 18px 22px;
+    background-color: transparent;
+    outline: none;
+    border-style: none;
+    width: 65%;
+}
+.specialBtn label{
+    cursor: pointer;
+}
+.InputHolder i{
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.btnHolder{
+    width: 90%;
+    border-radius: 100px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-width: 2px;
+    text-align: left;
+}
+.btnHolder button{
+    width: 100%;
+    border-radius: 100px;
+    background-color: rgb(11, 111, 198);
+    color: white;
+    padding: 17px;
+    font-size: 20px;
+    border-style: none;
+    margin-top: 15px;
+}
+.specialBtn{
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
+.stayLeft{
+    float: left;
+    cursor: pointer;
+}
+.stayRight{
+    float: right;
+    cursor: pointer;
+}
+.signUpFOrm{
+    width: 35%;
+    background-color: white;
+    border-radius: 12px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 150px;
+    padding-bottom: 30px;
+    margin-bottom: 130px;
+    display: none;
+}
+.signUpFOrm h1{
+    margin-top: 20px;
+}
+.navigationBar{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    position: fixed;
+    color: white;
+    display: inline-table;
+}
+.navigationBar h2{
+    color: white;
+    font-size: 33px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-weight: lighter;
+    margin-left: 75px;
+}
+.navigationBar span{
+    color: orange;
+    font-size: 33px;
+    font-weight: lighter;
+}
+.logoArea{
+    width: 30%;
+    display: inline-table;
+    float: left;
+    margin-top: 15px;
+}
+.logoArea a{
+    text-decoration: none;
+    color: white;
+}
+.menuArea{
+    display: inline-table;
+    width: 50%;
+    margin-top: 10px;
+    float: right;
+    margin-right: 55px;
+    text-align: right;
+}
+.menuArea ul{
+    list-style: none;
+    display: flex;
+    float: right;
+}
+.menuArea li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 19px;
+    padding-top: 20px;
+    padding-bottom: 35px;
+}
+.menuArea li a:hover{
+    background-color: rgb(84, 81, 81);
+}
+
+.pageArea{
+    padding-top: 100px;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+}
+.greetingsTab{
+    background-color: white;
+    border-radius: 12px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 25px;
+    padding-bottom: 0px;
+}
+.greetingsTab h2{
+    font-size: 37px;
+    color: rgb(27, 26, 26);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.greetingsTab p{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 23px;
+    margin-left: 67px;
+}
+.greetingsTab i{
+    font-size: 55px;
+}
+.recentlyRead{
+    background-color: white;
+    width: 90%;
+    text-align: left;
+    padding: 25px;
+    margin: 0 auto;
+    margin-top: 35px;
+    border-radius: 12px;
+}
+.recentlyRead a{
+    text-decoration: none;
+    color: rgb(14, 13, 13);
+}
+.recentlyRead hr{
+    margin-bottom: 23px;
+    color: gray;
+    width: 95%;
+}
+.recentlyRead h2{
+    color: rgb(0, 0, 0);
+    width: 90%;
+    text-align: left;
+    margin-left: 45px;
+    font-weight: bold;
+    font-size: 23px;
+}
+.bookThumbnail{
+    width: 30%;
+    border-radius: 12px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(239, 239, 240);
+    background-color: rgb(248, 248, 248);
+    display: inline-table;
+    text-align: left;
+    margin-right: 20px;
+    transform: all 3s;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+.bookThumbnail:hover{
+    background-color: rgb(228, 227, 227);;
+}
+.bookCover{
+    width: 25%;
+    overflow: hidden;
+    border-radius: 8px;
+    display: inline-table;
+    vertical-align: top;
+}
+.bookCover img{
+    width: 100%;
+}
+.detailPage{
+    display: inline-table;
+    width: 70%;
+    margin-left: 10px;
+}
+.detailPage h2{
+    font-weight: bold;
+    margin-top: 5px;
+    text-align: left;
+    margin-left: 0px;
+}
+.detailPage p{
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.detailPage span{
+    display: block;
+    font-weight: lighter;
+}
+.bookstatus{
+    background-color: rgb(36, 143, 0);
+    padding: 5px 22px 5px 22px;
+    border-radius: 100px;
+    font-size: 17px;
+    margin-top: 4px;
+    color: white;
+    display: inline-table;
+}
+.borrowed{
+    background-color: rgb(198, 8, 8);
+    padding: 5px 22px 5px 22px;
+    border-radius: 100px;
+    font-size: 17px;
+    margin-top: 4px;
+    color: white;
+    display: inline-table;
+}
+.shortMenu{
+    background-color: rgb(189, 215, 245);
+    padding: 12px;
+    border-radius: 12px 12px 0px 0px;
+    width: 91%;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+.formArea{
+    display: inline-table;
+    width: 55%;
+}
+.formArea input{
+    width: 20%;
+    padding: 6px 22px 6px 22px;
+    border-radius: 6px;
+    font-size: 19px;
+    border-style: none;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+.formArea select{
+    
+    width: 25%;
+    padding: 6px 22px 6px 22px;
+    border-radius: 6px;
+    font-size: 19px;
+    border-style: none;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+.formArea button{
+    padding: 6px 22px 6px 22px;
+    display: inline-table;
+    font-size: 20px;
+    background-color: rgb(204, 204, 204);
+    color: rgb(0, 0, 0);
+    border-style: solid;
+    border-color: white;
+    border-radius: 4px;
+}
+.formArea i{
+    font-size: 19px;
+    border-style: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.sideMenu{
+    float: right;
+    width: 40%;
+    text-align: right;
+}
+.menuTB{
+    display: inline-table;
+    padding: 9px 22px 9px 22px;
+    margin-left: 10px;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(152, 149, 149);
+    background-color: white;
+}
+.menuTB a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+}
+.succesNotify{
+    background-color: rgb(158, 251, 158);
+    padding: 13px;
+    font-size: 19px;
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
+}
+.failedNotify{
+    background-color: rgb(251, 181, 158);
+    padding: 13px;
+    font-size: 19px;
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
+}
+.hangingPreview{
+    background-color: white;
+    border-radius: 10px;
+    width: 60%;
+    position: fixed;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: -115px;
+    box-shadow: 3px 3px 33000px rgb(0, 0, 0);
+}
+
+
+.hangingPreview2{
+    background-color: white;
+    border-radius: 10px;
+    width: 60%;
+    position: fixed;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: -115px;
+    box-shadow: 3px 3px 33000px rgb(0, 0, 0);
+}
+
+
+.hangingPreview3{
+    background-color: white;
+    border-radius: 10px;
+    width: 60%;
+    position: fixed;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: -235px;
+    box-shadow: 3px 3px 33000px rgb(0, 0, 0);
+    display: block;
+    margin-bottom: 150px;
+}
+
+.hangingPreview4{
+    position: fixed;
+    background-color: white;
+    border-radius: 10px;
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: -235px;
+    box-shadow: 3px 3px 33000px rgb(0, 0, 0);
+    display: block;
+    margin-bottom: 150px;
+}
+.coverHolder{
+    width: 40%;
+    height: 250px;
+    max-height: 250px;
+    display: inline-table;
+    margin-right: 10px;
+    vertical-align: top;
+    overflow: hidden;
+    border-radius: 12px;
+}
+.coverHolder img{
+    width: 100%;
+    border-radius: 10px;
+}
+.bookbriefHolder{
+    width: 90%;
+    display: inline-table;
+}
+.bookbriefHolder h2{
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 30px;
+    font-size: 38px;
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+.bookbriefHolder span{
+    font-weight: bold;
+    display: flex;
+    margin-right: 10px;
+}
+.bookbriefHolder p{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+.bookbriefHolder i{
+    margin-right: 5px;
+}
+.bookbriefHolder h3{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+.bookbriefHolder table{
+    width: 70%;
+    margin-bottom: 30px;
+    margin-left: 25px;
+}
+.bookbriefHolder td{
+    padding: 6px;
+}
+.simpleControl{
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+    padding-top: 30px;
+}
+.actBtn{
+    background-color: rgb(0, 0, 0);
+    width: auto;
+    border-radius: 8px;
+    text-align: center;
+    padding: 12px 15px 12px 15px;
+    display: inline-table;
+    margin-right: 30px;
+}
+.actBtn a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+
+.Borrowbtn{
+    background-color: rgb(192, 0, 0);
+    width: auto;
+    border-radius: 8px;
+    text-align: center;
+    padding: 12px 15px 12px 15px;
+    display: inline-table;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.Borrowbtn a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-weight: lighter;
+}
+.closeScrn{
+    float: right;
+}
+.closeScrn i{
+    font-size: 35px;
+    margin-right: -5px;
+    margin-top: -5px;
+    cursor: pointer;
+}
+
+
+.closeScrn3{
+    float: right;
+}
+.closeScrn3 i{
+    font-size: 35px;
+    margin-right: -5px;
+    margin-top: -5px;
+    cursor: pointer;
+}
+
+.closeScrn2{
+    float: right;
+}
+.closeScrn2 i{
+    font-size: 35px;
+    margin-right: -5px;
+    margin-top: -5px;
+    cursor: pointer;
+}
+.formHolder{
+    width: 100%;
+    background-color: rgb(243, 244, 246);
+    margin: 0 auto;
+    padding: 15px;
+}
+.formHolder h2{
+    color: rgb(9, 9, 9);
+    font-size: 17px;
+    margin-top: 2px;
+    margin-left: 10px;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.formHolder form{
+    margin-left: 10px;
+    width: 100%;
+}
+.formHolder label{
+    font-size: 15px;
+    color: gray;
+    margin-bottom: 5px;
+}
+.formHolder input{
+    width: 95%;
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    outline: none;
+    border-style: solid;
+    border-color: gray;
+    border-width: 2px;
+}
+
+
+
+
+
+.formHolder2{
+    width: 100%;
+    background-color: rgb(243, 244, 246);
+    margin: 0 auto;
+    padding: 15px;
+}
+.formHolder2 h2{
+    color: rgb(9, 9, 9);
+    font-size: 17px;
+    margin-top: 2px;
+    margin-left: 10px;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.formHolder2 form{
+    margin-left: 10px;
+    width: 100%;
+}
+.formHolder2 label{
+    font-size: 15px;
+    color: gray;
+    margin-bottom: 5px;
+}
+.squizedBox{
+    width: 100%;
+    background-color: rgb(243, 244, 246);
+    text-align: left;
+}
+.squizedBox input{
+    width: 45%;
+    display: inline-table;
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    outline: none;
+    border-style: solid;
+    border-color: gray;
+    border-width: 2px;
+}
+
+.formHolder select{
+    width: 98%;
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    outline: none;
+    border-style: solid;
+    border-color: gray;
+    border-width: 2px;
+}
+.formHolder textarea{
+    width: 95%;
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    outline: none;
+    border-style: solid;
+    border-color: gray;
+    border-width: 2px;
+    height: 60px;
+}
+.formHolder button{
+    background-color: rgb(7, 128, 180);
+    padding: 8px;
+    border-radius: 5px;
+    width: 98%;
+    font-size: 16px;
+    color: white;
+    border-style: none;
+    cursor: pointer;
+}
+.agreeHolder{
+    width: 100%;
+}
+.agreeHolder input{
+    width: auto;
+}
+.agreeHolder label{
+    color: rgb(139, 3, 3);
+}
+.gobackButn{
+    margin-top: 5px;
+    padding: 12px;
+}
+.gobackButn a{
+    text-decoration: none;
+    color: rgb(11, 11, 11);
+}
+.gobackButn a:hover{
+    background-color: rgb(227, 221, 221);
+    padding: 8px;
+}
+.borrSuccess{
+    background-color: rgb(197, 232, 166);
+    padding: 8px 12px 8px 12px;
+    width: 98%;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-radius: 4px;
+}
+.borrFailed{
+    background-color: rgb(241, 120, 120);
+    padding: 8px 12px 8px 12px;
+    color: white;
+    width: 98%;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-radius: 4px;
+}
+.holdTable{
+    width: 100%;
+    margin: 0 auto;
+    padding: 12px;
+    border-radius: 12px;
+}
+.holdTable table{
+    width: 95%;
+    background-color: rgb(210, 221, 236);
+    text-align: left;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.holdTable img{
+    width: 6%;
+    display: inline-table;
+    vertical-align: middle;
+    border-radius: 4px;
+}
+.holdTable th{
+    padding: 12px;
+    background-color: rgb(62, 130, 157);
+    color: white;
+}
+.holdTable td{
+    padding-left: 15px;
+}
+.holdTable tr:nth-child(odd){
+    background-color: white;
+}
+.holdTable h2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    font-size: 19px;
+    display: inline-table;
+    width: 80%;
+    font-weight: lighter;
+}
+.holdTable i{
+    font-size: 26px;
+    cursor: pointer;
+    color: rgb(5, 65, 122);
+    margin: 5px;
+}
+.addNewBook{
+    position: fixed;
+    background-color: rgb(0, 75, 125);
+    color: white;
+    border-radius: 100px;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    bottom: 20px;
+    right: 20px;
+    border-style: white;
+    border-color: white;
+    cursor: pointer;
+    font-size: 50px;
+}
+.redBack{
+    background-color: rgb(255, 160, 178);
+    color: white;
+    padding: 3px;
+}
+.redBack a{
+    color: white;
+    text-decoration: none;
+}
+.redBack h2{
+    color: white;
+}
+.mobileMenu{
+    display: none;
+}
+
+.closeMenu{
+    display: none;
+}
+.mobileMenuTray{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 1109px){
+    .mobileMenu{
+        display: block;
+        float: right;
+        margin-top: -50px;
+        margin-right: 15px;
+        cursor: pointer;
+    }
+    .mobileMenu i{
+        font-size: 33px;
+        color: white;
+    }
+    .closeMenu{
+        float: right;
+        margin-top: -50px;
+        margin-right: 15px;
+        cursor: pointer;
+    }
+    .closeMenu i{
+        font-size: 33px;
+        color: white;
+    }
+    .logoArea{
+        width: 100%;
+        margin-left: -40px;
+        padding-left: 0px;
+    }
+    .menuArea h2{
+        margin-left: 0px;
+        font-size: 13px;
+    }
+    .menuArea{
+        display: none;
+    }
+    .greetingsTab{
+        width: 85%;
+    }
+    .greetingsTab h2{
+        text-align: center;
+        font-size: 25px;
+    }
+    .greetingsTab i{
+        text-align: center;
+        font-size: 25px;
+    }
+    .greetingsTab p{
+        font-size: 23px;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .bookThumbnail{
+        width: 100%;
+        margin-bottom: 30px;
+        border-bottom-style: solid;
+        border-bottom-width: 2px;
+        border-bottom-color: green;
+    }
+    .InputHolder{
+        width: 90%;
+    }
+    .LoginHolder{
+        width: 95%;
+    }
+    .LoginHolder form{
+        width: 100%;
+    }
+    .InputHolder input{
+        width: 70%;
+    }
+    .InputHolder select{
+        width: 80%;
+    }
+    .formArea{
+        width: 90%;
+        text-align: center;
+    }
+    .formArea input{
+        width: 96%;
+        margin-bottom: 5px;
+    }
+    .formArea select{
+        width: 110%;
+    }
+    .formArea button{
+        width: 110%;
+        margin-top: 5px;
+    }
+    .bookCover{
+        width:26%;
+    }
+    .hangingPreview{
+        width: 89%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: -200px;
+        position: relative;
+        padding-bottom: 30px;
+    }
+    .coverHolder{
+        width: 100%;
+    }
+    .closeScrn{
+        z-index: 15;
+        margin-top: -30px;
+    }
+    .bookbriefHolder{
+        width: 100%;
+        margin-top: 15px;
+    }
+    .bookbriefHolder h2{
+        margin-top: 15px;
+        width: 95%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .bookbriefHolder table{
+        width: 95%;
+    }
+    .bookbriefHolder p{
+        text-align: center;
+    }
+    .simpleControl{
+        margin: 0 auto;
+        text-align: right;
+        width: 95%;
+    }
+    .recentlyRead{
+        width: 86%;
+    }
+    .formArea input{
+        border-style: none;
+    }
+    .formArea select{
+        border-style: none;
+    }
+    .detailPage{
+        width: 60%;
+    }
+    .detailPage h2{
+        font-size: 17px;
+        font-weight: bold;
+    }
+    .detailPage span{
+        display: inline-table;
+    }
+    .recentlyRead h2{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .bookstatus{
+        border-radius: 10px 10px 0px 0px;
+    }
+    .borrowed{
+        border-radius: 10px 10px 0px 0px;
+    }
+    .mobileMenuTray{
+        position: fixed;
+        background-color: black;
+        width: 100%;
+        margin-top: 65px;
+        height: 100vh;
+        opacity: 0.7;
+        text-align: right;
+        display: none;
+    }
+    .mobileMenuTray ul{
+        list-style-type: none;
+        margin-right: 20px;
+    }
+    .mobileMenuTray li{
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .mobileMenuTray a{
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    .mobileMenuTray i{
+        font-size: 25px;
+        margin-left: 10px;
+    }
+    .hangingPreview4{
+        margin-left: 0;
+        margin-right: 0;
+        width: 43%;
+    }
+}
